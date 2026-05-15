@@ -150,6 +150,7 @@ color: var(--gree-800);
     font-size: 1rem;
 }
 .resultados div > strong{
+    color: var(--light-gree);
     
     font-size: 2rem;
     
@@ -176,6 +177,18 @@ color: var(--gree-800);
 }
 
 @media(min-width:920px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100svh;
+        justify-content: center;
+        gap: 5rem;
+
+    }
+    header{
+        padding: 0;
+    }
     main{
         display: flex;
         gap:3rem;
@@ -188,7 +201,14 @@ color: var(--gree-800);
     main section{
         width: 100%;
     }
+
+   .conta input::-webkit-inner-spin-button,
+   .pessoas input::-webkit-inner-spin-button{
+    display: none;
+   }
+
     .gorjeta div{
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
 }
