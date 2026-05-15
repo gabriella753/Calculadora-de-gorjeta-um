@@ -148,6 +148,7 @@ color: var(--gree-800);
     font-size: 0.75rem;
     color: var(--danger);
     font-weight: 700;
+    display: none;
     
 }
 
