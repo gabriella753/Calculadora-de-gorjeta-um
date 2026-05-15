@@ -150,11 +150,27 @@ color: var(--gree-800);
     font-size: 1rem;
 }
 .resultados div > strong{
-    color: var(--light-gree);
+    
     font-size: 2rem;
     
 }
 
 .resultados .gorjeta-total{
     margin-bottom: 1.25rem;
+}
+
+.resultados .total {
+    margin-bottom: 2rem;
+}
+
+.resultados button {
+    width: 100%;
+    background: var(--light-gree);
+    border: none;
+    border-radius: 0.3125rem;
+    color: var(--gree-800);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    padding-block: 0.5rem;
 }
