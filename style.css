@@ -34,11 +34,13 @@ header{
 main{
     background-color: var(--write);
     padding: 2rem;
+    border-radius: 1.5625rem 1.5625rem 0  0;
 
 }
 
 .conta,
-.gorjeta{
+.gorjeta,
+.pessoas{
     margin-bottom: 2rem;
 }
 
@@ -62,6 +64,7 @@ border-radius: 0.3125rem;
 }
 
 .conta input,
+.pessoas input,
 .pessoas input{
     border: none;
     text-align: right;
@@ -74,7 +77,7 @@ border-radius: 0.3125rem;
 }
 
 .conta input::placeholder,
-pessoas input::placeholder{
+.pessoas input::placeholder{
     color:var(--green-300)
 }
 
@@ -105,7 +108,7 @@ pessoas input::placeholder{
 }
 
 .gorjeta #outra{
-    width: 100%;
+width: 100%;
 background-color: var(--gree-100);
 color: var(--gree-800);
 }
@@ -116,4 +119,42 @@ color: var(--gree-800);
 
 .pessoas #erro{
     display: none;
+}
+
+.pessoas #erros{
+    display: none;
+
+}
+
+.resultados{
+
+    background-color: var(--gree-800);
+    border-radius: 0.9375rem;
+    padding: 1.5rem;
+
+}
+
+.resultados div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resultados p{
+    color: var(--gree-400);
+    font-size: 0.8125rem;
+
+}
+
+.resultados p strong{
+    color: var(--write);
+    font-size: 1rem;
+}
+.resultados div > strong{
+    color: var(--light-gree);
+    font-size: 2rem;
+    
+}
+
+.resultados .gorjeta-total{
+    margin-bottom: 1.25rem;
 }
