@@ -37,7 +37,8 @@ main{
 
 }
 
-.conta{
+.conta,
+.gorjeta{
     margin-bottom: 2rem;
 }
 
@@ -77,6 +78,7 @@ border-radius: 0.3125rem;
     outline: 2px solid var(--light-gree);
 }
 
+
 .gorjeta div{
     margin-top: 1rem;
 
@@ -85,7 +87,24 @@ border-radius: 0.3125rem;
     gap: 1rem;
 }
 
+.gorjeta  input{
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    outline: none;
+    padding-block: 0.4rem;
+    border-radius: 0.3125rem;
+    background-color: var(--gree-800);
+    color: var(--write);
+}
+
 .gorjeta #outra{
     width: 100%;
+background-color: var(--gree-100);
+color: var(--gree-800);
+}
 
+.gorjeta #outra::placeholder{
+    color: var(--green-300);
 }
